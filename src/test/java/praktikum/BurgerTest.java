@@ -11,9 +11,9 @@ import java.util.List;
 
 @RunWith(MockitoJUnitRunner.class)
 public class BurgerTest {
-    Database database = Mockito.mock(Database.class);
-    int ingredientsSize;
-    Burger burger = Mockito.spy(Burger.class);
+    private Database database = Mockito.mock(Database.class);
+    private int ingredientsSize;
+    private Burger burger = Mockito.spy(Burger.class);
     private Bun bun;
     private List<Ingredient> ingredients;
 
